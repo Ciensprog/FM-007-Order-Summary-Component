@@ -38,7 +38,7 @@ export function App() {
                 <div className="ml-auto">
                   <a
                     href="/#"
-                    className="font-bold leading-4 text-blue-normal text-sm underline"
+                    className="font-bold leading-4 text-blue-normal text-sm transition-colors underline hover:text-blue-light"
                     onClick={(event) => event.preventDefault()}
                   >
                     Change
@@ -47,7 +47,7 @@ export function App() {
               </div>
               <button
                 type="submit"
-                className="bg-blue-normal font-black p-[0.9375rem] rounded-[0.625rem] shadow-[0_20px_20px_0_rgba(56_42_225_/_0.19)] text-[0.9375rem] text-white w-full"
+                className="bg-blue-normal font-black p-[0.9375rem] rounded-[0.625rem] shadow-[0_20px_20px_0_rgba(56_42_225_/_0.19)] text-[0.9375rem] text-white transition w-full hover:bg-blue-light"
               >
                 Proceed to Payment
               </button>
@@ -55,7 +55,7 @@ export function App() {
             <div className="mt-8 text-center">
               <a
                 href="/#"
-                className="font-black text-grey-light text-[0.9375rem]"
+                className="font-black text-[0.9375rem] text-grey-light transition-colors hover:text-grey-dark"
                 onClick={(event) => event.preventDefault()}
               >
                 Cancel Order
