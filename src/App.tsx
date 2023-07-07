@@ -16,6 +16,15 @@ export function App() {
               <img src="banner.jpg" alt="Order summary banner" />
             </picture>
           </header>
+          <section className="pb-12 pt-11">
+            <h1 className="font-black text-[1.75rem] text-center">
+              Order Summary
+            </h1>
+            <p className="font-medium leading-[1.625rem] max-w-[22.125rem] mt-4 mx-auto text-center text-grey-light">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </section>
         </div>
       </main>
 
