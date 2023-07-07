@@ -1,6 +1,10 @@
 const colors = {
   base: '#E0E8FF',
+  blue: {
+    normal: '#382AE1',
+  },
   grey: {
+    'very-light': '#F7F9FF',
     light: '#717FA6',
     dark: '#1F2E55',
   },
