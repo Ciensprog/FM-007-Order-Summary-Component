@@ -26,23 +26,40 @@ export function App() {
               You can now listen to millions of songs, audiobooks, and podcasts
               on any device anywhere you like!
             </p>
-            <div className="bg-grey-very-light flex gap-5 items-center mt-5 px-6 py-[1.5625rem] rounded-[0.625rem]">
-              <div className="h-12 w-12">
-                <IconMusic />
+            <form onSubmit={(event) => event.preventDefault()}>
+              <div className="bg-grey-very-light flex gap-5 items-center mb-8 mt-5 px-6 py-[1.5625rem] rounded-[0.625rem]">
+                <div className="h-12 w-12">
+                  <IconMusic />
+                </div>
+                <div className="">
+                  <h4 className="font-black">Annual Plan</h4>
+                  <p className="font-medium text-grey-light">$59.99/year</p>
+                </div>
+                <div className="ml-auto">
+                  <a
+                    href="/#"
+                    className="font-bold leading-4 text-blue-normal text-sm underline"
+                    onClick={(event) => event.preventDefault()}
+                  >
+                    Change
+                  </a>
+                </div>
               </div>
-              <div className="">
-                <h4 className="font-black">Annual Plan</h4>
-                <p className="font-medium text-grey-light">$59.99/year</p>
-              </div>
-              <div className="ml-auto">
-                <a
-                  href="/#"
-                  className="font-bold leading-4 text-blue-normal text-sm underline"
-                  onClick={(event) => event.preventDefault()}
-                >
-                  Change
-                </a>
-              </div>
+              <button
+                type="submit"
+                className="bg-blue-normal font-black p-[0.9375rem] rounded-[0.625rem] shadow-[0_20px_20px_0_rgba(56_42_225_/_0.19)] text-[0.9375rem] text-white w-full"
+              >
+                Proceed to Payment
+              </button>
+            </form>
+            <div className="mt-8 text-center">
+              <a
+                href="/#"
+                className="font-black text-grey-light text-[0.9375rem]"
+                onClick={(event) => event.preventDefault()}
+              >
+                Cancel Order
+              </a>
             </div>
           </section>
         </div>
