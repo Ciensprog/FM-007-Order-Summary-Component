@@ -1,6 +1,7 @@
 const colors = {
   base: '#E0E8FF',
   blue: {
+    light: '#766CF1',
     normal: '#382AE1',
   },
   grey: {
