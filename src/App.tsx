@@ -10,7 +10,13 @@ export function App() {
   return (
     <>
       <main className="my-10 z-10">
-        <h1 className="font-medium text-2xl">App</h1>
+        <div className="bg-white max-w-[28.125rem] rounded-[1.25rem] w-full">
+          <header className="overflow-hidden rounded-tl-[1.25rem] rounded-tr-[1.25rem]">
+            <picture>
+              <img src="banner.jpg" alt="Order summary banner" />
+            </picture>
+          </header>
+        </div>
       </main>
 
       <Attribution />
