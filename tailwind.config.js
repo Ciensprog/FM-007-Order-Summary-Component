@@ -1,5 +1,5 @@
 const colors = {
-  //
+  base: '#E0E8FF',
 }
 
 /*
