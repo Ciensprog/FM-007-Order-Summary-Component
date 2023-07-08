@@ -22,7 +22,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/CHALLENGE_SOLUTION_URL_SLUG](https://www.frontendmentor.io/solutions/CHALLENGE_SOLUTION_URL_SLUG)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-9Pmp9NMGMF](https://www.frontendmentor.io/solutions/order-summary-component-9Pmp9NMGMF)
 - Live Site URL: [https://ciensprog.github.io/FM-007-Order-Summary-Component/](https://ciensprog.github.io/FM-007-Order-Summary-Component/)
 
 ### Built with
