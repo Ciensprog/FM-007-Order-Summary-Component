@@ -12,7 +12,7 @@ export function App() {
   return (
     <>
       <main className="my-10 z-10">
-        <div className="bg-white max-w-[28.125rem] rounded-[1.25rem] w-full">
+        <div className="bg-white max-w-[28.125rem] rounded-[1.25rem] shadow-[0_40px_40px_-20px_rgb(13_48_189_/_0.15)] w-full">
           <header className="overflow-hidden rounded-tl-[1.25rem] rounded-tr-[1.25rem]">
             <picture>
               <img src="banner.jpg" alt="Order summary banner" />
