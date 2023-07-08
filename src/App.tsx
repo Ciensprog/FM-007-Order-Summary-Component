@@ -18,27 +18,27 @@ export function App() {
               <img src="banner.jpg" alt="Order summary banner" />
             </picture>
           </header>
-          <section className="pb-12 pt-11 px-12">
-            <h1 className="font-black text-[1.75rem] text-center">
+          <section className="p-8 sm:pb-12 sm:pt-11 sm:px-12">
+            <h1 className="font-black text-[1.375rem] text-center sm:text-[1.75rem]">
               Order Summary
             </h1>
-            <p className="font-medium leading-[1.625rem] max-w-[22.125rem] mt-4 mx-auto text-center text-grey-light">
+            <p className="font-medium leading-[1.625rem] max-w-[16.5rem] mt-4 mx-auto text-[0.9375rem] text-center text-grey-light sm:text-base sm:leading-[1.625rem] sm:max-w-[22.125rem]">
               You can now listen to millions of songs, audiobooks, and podcasts
               on any device anywhere you like!
             </p>
             <form onSubmit={(event) => event.preventDefault()}>
-              <div className="bg-grey-very-light flex gap-5 items-center mb-8 mt-5 px-6 py-[1.5625rem] rounded-[0.625rem]">
+              <div className="bg-grey-very-light flex gap-5 items-center mb-6 mt-6 px-4 py-[1.0625rem] rounded-[0.625rem] sm:mb-8 sm:mt-5 sm:px-6 sm:py-[1.5625rem]">
                 <div className="h-12 w-12">
                   <IconMusic />
                 </div>
-                <div className="">
+                <div className="text-sm sm:leading-4 sm:text-base">
                   <h4 className="font-black">Annual Plan</h4>
                   <p className="font-medium text-grey-light">$59.99/year</p>
                 </div>
                 <div className="ml-auto">
                   <a
                     href="/#"
-                    className="font-bold leading-4 text-blue-normal text-sm transition-colors underline hover:text-blue-light"
+                    className="font-bold leading-4 text-blue-normal text-[0.8125rem] transition-colors underline hover:text-blue-light sm:text-sm"
                     onClick={(event) => event.preventDefault()}
                   >
                     Change
@@ -52,7 +52,7 @@ export function App() {
                 Proceed to Payment
               </button>
             </form>
-            <div className="mt-8 text-center">
+            <div className="mt-6 text-center sm:mt-8">
               <a
                 href="/#"
                 className="font-black text-[0.9375rem] text-grey-light transition-colors hover:text-grey-dark"
