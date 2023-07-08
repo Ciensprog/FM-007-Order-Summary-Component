@@ -33,7 +33,9 @@ export function App() {
                 </div>
                 <div className="text-sm sm:leading-4 sm:text-base">
                   <h4 className="font-black">Annual Plan</h4>
-                  <p className="font-medium text-grey-light">$59.99/year</p>
+                  <p className="font-medium mt-0.5 text-grey-light sm:mt-2.5">
+                    $59.99/year
+                  </p>
                 </div>
                 <div className="ml-auto">
                   <a
